@@ -1,0 +1,4 @@
+3	!Broj vodova
+10	!Broj zgrada
+8	!Broj stanova u zgradi
+96	!Ukupan broj strujnih krugova svih stanova jedne zgrade

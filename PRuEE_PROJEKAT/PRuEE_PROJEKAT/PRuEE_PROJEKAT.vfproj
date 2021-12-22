@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{580D1179-A084-4DA6-867F-EC6C6FD58F02}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd">
+		<File RelativePath=".\Formule_za_proracun.fi"/></Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\Elementi.f90"/>
+		<File RelativePath=".\Elementi_Ucitavanje.f90"/>
+		<File RelativePath=".\FORMULE.f90"/>
+		<File RelativePath=".\GLAVNI.f90"/>
+		<File RelativePath=".\Globalni_Proracun.f90"/>
+		<File RelativePath=".\Ispis_Dealokacija.f90"/>
+		<File RelativePath=".\Pad_Napona_i_Kratak_Spoj.f90"/>
+		<File RelativePath=".\Presek_Proracun.f90"/>
+		<File RelativePath=".\TABLICE.f90"/>
+		<File RelativePath=".\ULAZ_Broj_Elemenata.txt"/>
+		<File RelativePath=".\ULAZ_Podaci_GRO_RT.txt"/>
+		<File RelativePath=".\ULAZ_Podaci_Strujni_Krugovi.txt"/>
+		<File RelativePath=".\ULAZ_Podaci_Vodovi.txt"/>
+		<File RelativePath=".\ULAZ_Podaci_Stan.txt"/></Filter></Files>
+	<Globals/></VisualStudioProject>

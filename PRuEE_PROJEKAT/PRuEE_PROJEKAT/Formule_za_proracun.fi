@@ -1,0 +1,82 @@
+!DEC$FREEFORM
+
+INTERFACE
+
+    SUBROUTINE FORMULA_ZA_Pj_ZGRADE(k, n, Pjs, Pjz)
+
+        REAL,    INTENT(IN)  :: k
+        REAL,    INTENT(IN)  :: n
+        REAL,    INTENT(IN)  :: Pjs
+        REAL,    INTENT(OUT) :: Pjz
+
+    END SUBROUTINE FORMULA_ZA_Pj_ZGRADE
+
+    !--------------------------------------------------------------------------------------
+
+    SUBROUTINE FORMULA_ZA_Ib_MONOFAZNO(P, U, I_b)
+
+        IMPLICIT NONE
+
+        REAL,    INTENT(IN)  :: P
+        REAL,    INTENT(IN)  :: U
+        REAL,    INTENT(OUT) :: I_b
+
+    END SUBROUTINE FORMULA_ZA_Ib_MONOFAZNO
+
+    !--------------------------------------------------------------------------------------
+
+    SUBROUTINE FORMULA_ZA_Ib_TROFAZNO(P, U, cos_fi, I_b)
+
+        IMPLICIT NONE
+
+        REAL,    INTENT(IN)  :: P
+        REAL,    INTENT(IN)  :: U
+        REAL,    INTENT(IN)  :: cos_fi
+        REAL,    INTENT(OUT) :: I_b
+
+    END SUBROUTINE FORMULA_ZA_Ib_TROFAZNO
+
+    !--------------------------------------------------------------------------------------
+
+    SUBROUTINE FORMULA_ZA_Pad_Napona_MONOFAZNO(l, r, P, U, pad_U)
+
+        IMPLICIT NONE
+
+        REAL,    INTENT(IN)  :: l
+        REAL,    INTENT(IN)  :: r
+        REAL,    INTENT(IN)  :: P
+        REAL,    INTENT(IN)  :: U
+        REAL,    INTENT(OUT) :: pad_U
+
+    END SUBROUTINE FORMULA_ZA_Pad_Napona_MONOFAZNO
+
+    !--------------------------------------------------------------------------------------
+
+    SUBROUTINE FORMULA_ZA_Pad_Napona_TROFAZNO(l, r, P, U, pad_U)
+
+        IMPLICIT NONE
+
+        REAL,    INTENT(IN)  :: l
+        REAL,    INTENT(IN)  :: r
+        REAL,    INTENT(IN)  :: P
+        REAL,    INTENT(IN)  :: U
+        REAL,    INTENT(OUT) :: pad_U
+
+    END SUBROUTINE FORMULA_ZA_Pad_Napona_TROFAZNO
+
+    !--------------------------------------------------------------------------------------
+
+    SUBROUTINE FORMULA_ZA_Iks(U, Ruk, Xuk, Iks)
+
+        IMPLICIT NONE
+
+        REAL,    INTENT(IN)  :: U
+        REAL,    INTENT(IN)  :: Ruk
+        REAL,    INTENT(IN)  :: Xuk
+        REAL,    INTENT(OUT) :: Iks
+
+    END SUBROUTINE FORMULA_ZA_Iks
+
+    !--------------------------------------------------------------------------------------
+
+END INTERFACE
